@@ -14,11 +14,11 @@ const store = new Vuex.Store({
   },
 
   getters: {
-    formation: state => {
+    teamFormation: state => {
       return state.lineup.formation;
     },
-    players: state => {
-      return state.lineup.players;
+    player: (state) => (id) => {
+      return state.lineup.players.find(player => player.formation_place == id);
     },
     team: state => {
       return state.lineup.team;
