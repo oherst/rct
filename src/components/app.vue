@@ -45,7 +45,7 @@ export default {
   computed: {
     ...mapGetters([
       'teamFormation',
-      'team'
+      'player'
     ]),
 
     formation() {
@@ -63,7 +63,7 @@ export default {
 
   methods: {
     findPlayer(id) {
-      return this.$store.getters.player(id);
+      return this.player(id);
     },
 
     formationPlayer(pos) {
