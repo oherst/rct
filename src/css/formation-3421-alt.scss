@@ -1,0 +1,41 @@
+@media (min-width: 321px) {
+  .formation-3421 {
+    .formation-player {
+      &.player-1 {
+        width: 60%;
+      }
+      &.player-2,
+      &.player-3 {
+        width: 20%;
+      }
+      &.player-6 {
+        margin-left: auto;
+      }
+      &.player-4,
+      &.player-11 {
+        width: 24%;
+        margin-right: auto;
+      }
+      &.player-5,
+      &.player-6,
+      &.player-7 {
+        width: 18%;
+      }
+      &.player-8 {
+        width: 42%;
+      }
+      &.player-9 {
+        width: 56%;
+        margin-right: auto;
+        .player {
+          width: 64%;
+          margin-left: auto;
+        }
+      }
+      &.player-10 {
+        width: 36%;
+        margin-left: auto;
+      }
+     }
+  }
+}
