@@ -1,0 +1,15 @@
+@media (min-width: 321px) {
+  .formation-3421 {
+    .formation-player {
+      &.player-4,
+      &.player-5,
+      &.player-6 {
+        width: 33.3%;
+      }
+      &.player-10,
+      &.player-11 {
+        width: 50%;
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+@media (min-width: 321px) {
+  .formation-4411 {
+    .formation-player {
+      &.player-1,
+      &.player-9,
+      &.player-10 {
+        width: 50%;
+      }
+    }
+  }
+}

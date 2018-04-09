@@ -1,0 +1,20 @@
+@media (min-width: 321px) {
+  .formation-442 {
+    .formation-player {
+      &.player-9 {
+        width: 50%;
+        .player {
+          width: 50%;
+          margin-right: auto;
+        }
+      }
+      &.player-10 {
+        width: 50%;
+        .player {
+          width: 50%;
+          margin-left: auto;
+        }
+      }
+    }
+  }
+}

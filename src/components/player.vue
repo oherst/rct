@@ -51,4 +51,30 @@ export default {
 .player-name {
   margin-top: 5px;
 }
+
+@media (max-width: 320px) {
+  .player {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .shirt {
+    width: 50px;
+  }
+
+  .number {
+    font-size: 20px;
+  }
+
+  .player-name {
+    padding-left: 10px;
+  }
+}
+
+@media (max-width: 499px) {
+  .shirt {
+    width: 60px;
+  }
+}
 </style>

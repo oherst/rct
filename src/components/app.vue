@@ -95,4 +95,16 @@ export default {
 .formation-player {
   width: 25%;
 }
+
+@media (max-width: 320px) {
+  .formation-row {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+  }
+
+  .formation-player {
+    width: auto;
+  }
+}
 </style>

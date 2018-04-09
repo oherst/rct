@@ -1,3 +1,7 @@
+@import './formation-442.scss';
+@import './formation-4411.scss';
+@import './formation-3421.scss';
+
 * {
   box-sizing: border-box;
 }
@@ -14,4 +18,10 @@ body {
   font-family: sans-serif;
   font-size: 14px;
   background: url('/img/pitch-bg.png');
+}
+
+@media (max-width: 499px) {
+  body {
+    font-size: 12px;
+  }
 }
