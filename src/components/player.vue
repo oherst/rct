@@ -30,22 +30,23 @@ export default {
 }
 
 .shirt {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  position: relative;
   margin: auto;
   width: 90px;
 }
 
 .number {
   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
   z-index: 1;
   font-size: 24px;
 }
 
 .shirt-img {
-  position: relative;
   width: 100%;
+  height: auto;
 }
 
 .player-name {
